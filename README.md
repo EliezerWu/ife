@@ -1,2 +1,2 @@
 # ife
-#This is my front-end exercises
+#These are my front-end exercises
