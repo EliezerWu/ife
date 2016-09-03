@@ -1,0 +1,35 @@
+﻿*{
+  padding:0;
+  margin:0
+}
+
+.rectangle{
+  /*margin-left:auto;
+  margin-right:auto;*/
+  margin:-100px 0 0 -200px;
+  width:400px;
+  height:200px;
+  display:block;
+  background-color:#ccc;
+  position:absolute;
+  top:50%;
+  left:50%;
+  overflow:hidden;
+}
+.circle{
+  background-color:yellow;
+  width:100px;
+  height:100px;
+  -moz-border-radius:50px; 
+  -webkit-border-radius:50px; 
+}
+#c1{
+  top:-50px;
+  left:-50px;
+  position:absolute;
+}
+#c2{
+  bottom:-50px;
+  right:-50px;
+  position:absolute;
+}
