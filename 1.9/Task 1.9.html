@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Task 1.9</title>
+    <link rel="stylesheet" media="screen" href="style/layout.css"/>
+</head>
+<body>
+<header>
+    <div class="logo-img">
+        <img src="images/logo.png"/>
+    </div>
+    <input type="text" name="search" class="search" title="search"/>
+    <div class="login-img">
+        <img src="images/login.png"/><span>登录</span>
+    </div>
+
+</header>
+<div class="container">
+    <div class="content">
+        <div class="guideline">
+            <a href="#">C站</a>/<a href="#">个人报表</a>/<a href="#">文件一</a>/<a href="#">文档一</a>
+        </div>
+        <form class="search-section">
+            <div class="category">
+                <span>查询项</span>
+                <select name="category">
+                    <option value="1">第一项</option>
+                    <option value="2">第二项</option>
+                </select>
+            </div>
+            <div>
+                <div>
+                    <span>买方</span>
+                    <select name="buyer">
+                        <option value="a">小A</option>
+                        <option value="b">小b</option>
+                    </select>
+                    <span>日期</span>
+                    <input type="date" class="date" name="date"/>
+                    <span>总耗时</span>
+                    <select name="cost">
+                        <option value="8">8天</option>
+                    </select>
+                </div>
+                <div>
+                    <span>卖方</span>
+                    <select name="seller">
+                        <option value="a">小A</option>
+                        <option value="b">小b</option>
+                    </select>
+                    <span>人数</span>
+                    <select name="people">
+                        <option value="10">10人</option>
+                    </select>
+                    <span>成交项</span>
+                    <select name="deal">
+                        <option value="10">10项</option>
+                    </select>
+                </div>
+                <img src="images/exchange.png"/>
+                <input type="submit" name="submit" class="submit" value="提交"/>
+            </div>
+        </form>
+        <div class="timeline">
+            <div class="arrow" id="left"></div>
+            <div class="display">
+                <div class="timestamps">
+                    <div class="timestamp">
+                        <p class="time">10.00am</p>
+                        <span>¥</span><span class="price">1200</span>
+                    </div>
+                    <div class="timestamp">
+                        <p class="time">11.00am</p>
+                        <span>¥</span><span class="price">1300</span>
+                    </div>
+                    <div class="timestamp">
+                        <p class="time">12.00am</p>
+                        <span>¥</span><span class="price">1400</span>
+                    </div>
+                    <div class="timestamp">
+                        <p class="time">13.00pm</p>
+                        <span>¥</span><span class="price">1200</span>
+                    </div>
+                    <div class="timestamp">
+                        <p class="time">14.00pm</p>
+                        <span>¥</span><span class="price">1500</span>
+                    </div>
+                    <div class="timestamp">
+                        <p class="time">15.00pm</p>
+                        <span>¥</span><span class="price">1800</span>
+                    </div>
+                </div>
+            </div>
+            <div class="arrow" id="right"></div>
+            <div class="history">
+                <img src="images/calendar.png"/><span>历史查询</span>
+            </div>
+        </div>
+        <p class="statistics-title">2016年4月份统计</p>
+        <div class="statistics">
+            <div class="statistic">
+                <p>133311</p>
+                <p>成交量</p>
+                <div class="color-block" id="green"></div>
+            </div>
+            <div class="statistic">
+                <p>133311</p>
+                <p>成交量</p>
+                <div class="color-block" id="blue"></div>
+            </div>
+            <div class="statistic">
+                <p>133311</p>
+                <p>成交量</p>
+                <div class="color-block" id="red"></div>
+            </div>
+            <div class="statistic">
+                <p>133311</p>
+                <p>成交量</p>
+                <div class="color-block" id="yellow"></div>
+            </div>
+        </div>
+        <div class="section-mid">
+            <div class="segment" id="mid-left">
+                <h2>第一组项目</h2>
+                <div class="white-background">
+                    <input type="radio" name="tab" id="tab-1" checked="checked"/>
+                    <input type="radio" name="tab" id="tab-2"/>
+                    <input type="radio" name="tab" id="tab-3"/>
+                    <input type="radio" name="tab" id="tab-4"/>
+                    <input type="radio" name="tab" id="tab-5"/>
+                    <div class="tab" id="tab1">项目一</div>
+                    <div class="tab" id="tab2">项目一</div>
+                    <div class="tab" id="tab3">项目一</div>
+                    <div class="tab" id="tab4">项目一</div>
+                    <div class="tab" id="tab5">项目一</div>
+                    <div class="tab-content" id="tab-content1">
+                        <table>
+                            <tr>
+                                <td>购买材料一</td>
+                                <td>购买材料一</td>
+                                <td>购买材料一</td>
+                                <td>购买材料一</td>
+                            </tr>
+                            <tr>
+                                <td>购买材料二</td>
+                                <td>购买材料二</td>
+                                <td>购买材料二</td>
+                                <td>购买材料二</td>
+                            </tr>
+                            <tr>
+                                <td>购买材料四</td>
+                                <td>购买材料四</td>
+                                <td>购买材料四</td>
+                                <td>购买材料四</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="tab-content" id="tab-content2"></div>
+                    <div class="tab-content" id="tab-content3"></div>
+                    <div class="tab-content" id="tab-content4"></div>
+                    <div class="tab-content" id="tab-content5"></div>
+                </div>
+            </div>
+            <div class="segment" id="mid-right">
+                <h2>第一组项目</h2>
+                <div class="white-background" id="wb-mid-right">
+                    <!--使用表格或许是一个更好的选择-->
+                    <h3>标题</h3>
+                    <h4>项目报表三</h4>
+                    <hr/>
+                    <div>
+                        <h3>价格</h3>
+                        <h4>¥158</h4>
+                    </div>
+                    <div>
+                        <h3>负责人</h3>
+                        <h4>小A</h4>
+                    </div>
+                    <hr/>
+                    <h3>详细描述</h3>
+                    <h4>该项目目前负责人是。。。</h4>
+                    <hr/>
+                    <input type="checkbox">
+                    <h3>遵守保密协议</h3>
+                    <input type="submit" value="搜索"/>
+                </div>
+            </div>
+        </div>
+        <div class="section-lower">
+            <div class="segment" id="lower-left">
+                <h2>日历</h2>
+                <div class="white-background">
+                    <select name="year">
+                        <option value="2016">2016年</option>
+                    </select>
+                    <select name="month">
+                        <option value="4">4月</option>
+                    </select>
+                    <select name="day">
+                        <option value="12">12</option>
+                    </select>
+                    <input type="button" value="返回今天"/>
+                    <img src=""/>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="nav">
+        <div class="user">
+            <img src="images/avatar.png" class="avatar"/>
+            <span class="username">ABC123</span>
+            <div class="info">
+                <div>
+                    <p>110</p>
+                    <p>收藏</p>
+                </div>
+                <hr/>
+                <div>
+                    <p>313</p>
+                    <p>粉丝</p>
+                </div>
+            </div>
+        </div>
+        <ul class="primary-list">
+            <input type="checkbox" name="personal-chart" class="personal-chart-checkbox" title="personal-chart"/>
+            <li class="primary-item">
+                个人报表
+                <ul class="secondary-list">
+                    <li>文件一</li>
+                    <input type="checkbox" name="folder-2" class="folder-2-checkbox" title="folder-2"/>
+                    <li>
+                        文件二
+                        <ul class="tertiary-list">
+                            <input type="radio" name="document" class="document-radio" id="document1-radio"/>
+                            <input type="radio" name="document" class="document-radio" id="document2-radio"/>
+                            <li id="doc1-item">文档1</li>
+                            <li id="doc2-item">文档2</li>
+                        </ul>
+                    </li>
+                    <li>文件三</li>
+                </ul>
+            </li>
+            <li>个人收藏</li>
+            <li>我的分享</li>
+            <li>图库</li>
+            <li>成长记录</li>
+            <li>账户信息</li>
+        </ul>
+    </div>
+</div>
+</body>
+</html>
