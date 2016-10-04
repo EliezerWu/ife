@@ -1,0 +1,30 @@
+<!DOCTYPE>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>IFE JavaScript Task 01</title>
+</head>
+<body>
+
+<div>
+    <label>城市名称：<input id="aqi-city-input" type="text"></label><br>
+    <label>空气质量指数：<input id="aqi-value-input" type="text"></label><br>
+    <button id="add-btn">确认添加</button>
+</div>
+<table id="aqi-table">
+    <!--
+      <tr>
+        <td>城市</td><td>空气质量</td><td>操作</td>
+      </tr>
+      <tr>
+        <td>北京</td><td>90</td><td><button>删除</button></td>
+      </tr>
+      <tr>
+        <td>北京</td><td>90</td><td><button>删除</button></td>
+      </tr>
+     -->
+</table>
+<script src="script/Task-16.js"></script>
+//script不能放在head里，因为javascript文件加载完成HTML才会向下加载，此时Html中的元素未加载完，javascript会出现找不到元素id的错误
+</body>
+</html>
