@@ -194,7 +194,7 @@ function initAqiChartData() {
                 accWeek = 0;
             }
             if (dateArray[i + 1] == undefined || CurMonth != dateArray[i + 1].slice(5, 7)) {
-                monthData[CurMonth + "月平均AQI值"] = Math.floor(accMonth / (i + 1));
+                monthData[CurMonth + "月平均AQI值"] = Math.floor(accMonth / parseInt(dateArray[i].slice(8)));
                 if (dateArray[i + 1])CurMonth = dateArray[i + 1].slice(5, 7);
                 accMonth = 0;
             }
