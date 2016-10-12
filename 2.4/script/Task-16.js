@@ -64,7 +64,6 @@ function delBtnHandle(button) {
     // do sth.
     var tr = button.parentElement.parentElement;
     delete aqiData[tr.childNodes[0].innerHTML];
-    renderAqiList();
 }
 
 function init() {

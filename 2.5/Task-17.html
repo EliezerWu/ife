@@ -1,0 +1,43 @@
+<!DOCTYPE>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>IFE JavaScript Task 01</title>
+
+</head>
+<body>
+<fieldset id="form-gra-time">
+    <legend>请选择日期粒度：</legend>
+    <label>日<input name="gra-time" value="day" type="radio" checked="checked"></label>
+    <label>周<input name="gra-time" value="week" type="radio"></label>
+    <label>月<input name="gra-time" value="month" type="radio"></label>
+</fieldset>
+
+<fieldset>
+    <legend>请选择查看的城市：</legend>
+    <select id="city-select">
+        <option>选择城市</option>
+        bb
+    </select>
+</fieldset>
+
+<div id="aqi-chart-wrap" class="clearfix" style="box-sizing: border-box;height: 500px;">
+
+</div>
+<style>
+    .clearfix::before, .clearfix::after {
+        content: "";
+        display: table;
+    }
+
+    .clearfix::after {
+        clear: both;
+    }
+
+    .clearfix {
+        zoom: 1; /* For IE 6/7 (trigger hasLayout) */
+    }
+</style>
+<script src="script/Task-17.js"></script>
+</body>
+</html>
