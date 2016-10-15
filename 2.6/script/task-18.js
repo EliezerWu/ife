@@ -65,7 +65,7 @@ function addSpanEvent() {
             display.getElementsByTagName("span")[num].onclick = function () {
                 clickDelete(num);
             }
-        })(i);//若闭包则i值始终为addspanEvent返回时的最终值，length的大小
+        })(i);//若闭包则i值始终为addSpanEvent返回时的最终值，length的大小
     }
 }
 
